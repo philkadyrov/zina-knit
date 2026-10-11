@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZINA KNIT — Авторские вязаные сумки из натуральной рафии</title>
+  <meta name="description" content="Уникальные сумки, шляпы и аксессуары ручной работы из натуральной рафии Isapie и эко-пряжи. Ручная работа с заботой в каждой петельке.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ZINA KNIT — Авторские вязаные сумки из натуральной рафии">
+  <meta property="og:description" content="Уникальные сумки, шляпы и аксессуары ручной работы из натуральной рафии. Изготовление на заказ и готовые коллекции.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#home" class="brand nav-link-btn" data-page="home">
+        <span class="brand-word">ZINA KNIT</span>
+        <span class="brand-by"><i>by</i> Зинаида</span>
+      </a>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#home" class="nav-link active" data-page="home">Главная</a>
+        <a href="#shop" class="nav-link" data-page="shop">Каталог</a>
+        <a href="#customizer" class="nav-link" data-page="customizer">Конструктор</a>
+        <a href="#about" class="nav-link" data-page="about">О бренде</a>
+        <a href="#contact" class="nav-link" data-page="contact">Контакты</a>
+      </nav>
+
+      <div class="header-right">
+        <button class="icon-btn wishlist-trigger" id="wishlistTrigger" title="Избранное" aria-label="Избранное">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.72-8.72 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+          <span class="badge-count" id="wishlistCount">0</span>
+        </button>
+
+        <button class="icon-btn cart-trigger" id="cartTrigger" title="Корзина" aria-label="Корзина">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="badge-count" id="cartCount">0</span>
+        </button>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main id="appMain">
+
+    <!-- PAGE: HOME -->
+    <div class="page-view active" id="page-home">
+      <!-- Hero Section -->
+      <section class="video-hero">
+        <div class="hero-image-bg">
+          <img src="/Users/filipp/.gemini/antigravity/brain/e1e8ed24-b027-4dda-ba59-c6a8520223db/hero_raffia_bag_1790529454496.jpg" alt="Zina Knit raffia bag" class="hero-img">
+        </div>
+        <div class="video-hero-content">
+          <div class="video-hero-panel">
+            <div class="hero-rule"></div>
+            <p class="eyebrow">Авторские изделия из рафии</p>
+            <h1>Сделано с любовью,<br> в каждой петельке.</h1>
+            <p class="hero-sub">Каждая сумка создается вручную из 100% натуральной рафии Isapie. Неповторимый стиль, экологичность и премиальное качество.</p>
+            <div class="hero-actions">
+              <a href="#shop" class="btn-primary btn-on-video nav-link-btn" data-page="shop">Смотреть каталог</a>
+              <a href="#customizer" class="btn-secondary btn-on-video-sub nav-link-btn" data-page="customizer">Создать свою сумку</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Value Props Bar -->
+      <section class="props-bar">
+        <div class="props-inner">
+          <div class="prop-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div>
+              <strong>100% Натуральная Рафия</strong>
+              <p>Органические пальмовые волокна из Мадагаскара</p>
+            </div>
+          </div>
+          <div class="prop-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <div>
+              <strong>Ручная работа</strong>
+              <p>От 15 до 35 часов кропотливого труда на каждое изделие</p>
+            </div>
+          </div>
+          <div class="prop-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            <div>
+              <strong>Доставка по всему миру</strong>
+              <p>Надежная упаковка в фирменный хлопковый пыльник</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Grid -->
+      <section class="featured">
+        <div class="featured-head reveal">
+          <div>
+            <p class="eyebrow">Коллекция Zina Knit</p>
+            <h2>Мои любимые работы</h2>
+          </div>
+          <a href="#shop" class="link-cta nav-link-btn" data-page="shop">Смотреть все (10) →</a>
+        </div>
+
+        <div class="featured-grid" id="homeFeaturedGrid">
+          <!-- Dynamically populated via app.js -->
+        </div>
+      </section>
+
+      <!-- Interactive Customizer Banner Teaser -->
+      <section class="customizer-teaser reveal">
+        <div class="teaser-inner">
+          <div class="teaser-content">
+            <p class="eyebrow">Эксклюзивно для вас</p>
+            <h2>Онлайн-конструктор сумки</h2>
+            <p>Выбери форму, оттенок натуральной рафии, ремешки из натуральной кожи и добавь персонализированную вышивку с инициалами.</p>
+            <a href="#customizer" class="btn-primary nav-link-btn" data-page="customizer">Открыть конструктор сумки →</a>
+          </div>
+          <div class="teaser-visual">
+            <div class="preview-badge-floating">
+              <span class="dot-live"></span> Кастомизация за 1 минуту
+            </div>
+            <img src="/Users/filipp/.gemini/antigravity/brain/e1e8ed24-b027-4dda-ba59-c6a8520223db/bag_tote_caramel_1790529468951.jpg" alt="Сумка на заказ">
+          </div>
+        </div>
+      </section>
+
+      <!-- Story Teaser -->
+      <section class="story-teaser">
+        <div class="story-inner">
+          <div class="story-photo reveal-left">
+            <img src="/Users/filipp/.gemini/antigravity/brain/e1e8ed24-b027-4dda-ba59-c6a8520223db/craftsman_hands_1790529522354.jpg" alt="Зинаида за работой">
+          </div>
+          <div class="story-copy reveal-right">
+            <p class="eyebrow">ZK Brand</p>
+            <h2>Любов до речей, створених власними руками.</h2>
+            <p>Кожен виріб створюється індивідуально — від вибору пряжі, кольору та фактури до останньої деталі. Теплі речі для холодного сезону та легкі сумки з рафії для літа.</p>
+            <p style="font-weight: 600; color: var(--gold-deep); font-size: 16px; font-family: var(--font-serif); margin-bottom: 18px;">Створено повільно. Створено з турботою.</p>
+            <a href="#about" class="link-cta nav-link-btn" data-page="about">Читати про бренд →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Band -->
+      <section class="cta-band reveal">
+        <h2>Найдите сумку, которая станет отражением вашей индивидуальности.</h2>
+        <a href="#shop" class="btn-primary nav-link-btn" data-page="shop">Перейти в каталог</a>
+      </section>
+    </div>
+
+
+    <!-- PAGE: SHOP -->
+    <div class="page-view" id="page-shop">
+      <div class="page-header">
+        <p class="eyebrow">Интернет-магазин</p>
+        <h1>Каталог изделий Zina Knit</h1>
+        <p class="page-sub">Все сумки и аксессуары создаются вручную из экологически чистой рафии и натуральной пряжи. Выберите готовое изделие или закажите по своим размерам.</p>
+      </div>
+
+      <!-- Shop Toolbar -->
+      <div class="shop-toolbar">
+        <div class="category-filter" id="categoryFilter">
+          <button class="active" data-cat="all">Все <span>(10)</span></button>
+          <button data-cat="tote">Шоперы <span>(3)</span></button>
+          <button data-cat="bucket">Ведерки <span>(2)</span></button>
+          <button data-cat="clutch">Клатчи <span>(3)</span></button>
+          <button data-cat="hat">Шляпы <span>(2)</span></button>
+        </div>
+
+        <div class="shop-controls">
+          <div class="search-box">
+            <input type="text" id="shopSearchInput" placeholder="Поиск по названию или цвету...">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <div class="sort-control">
+            <label for="sortSelect">Сортировка:</label>
+            <select id="sortSelect">
+              <option value="featured">Рекомендуемые</option>
+              <option value="price-asc">Сначала дешевле</option>
+              <option value="price-desc">Сначала дороже</option>
+              <option value="rating">По популярности</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="shop-grid" id="shopGrid">
+        <!-- Dynamically rendered via app.js -->
+      </div>
+    </div>
+
+
+    <!-- PAGE: CUSTOMIZER -->
+    <div class="page-view" id="page-customizer">
+      <div class="page-header">
+        <p class="eyebrow">Персонализация</p>
+        <h1>Интерактивный Конструктор Сумки</h1>
+        <p class="page-sub">Скомпонуйте сумку вашей мечты: выберите форму, оттенок натуральной рафии, материал ручек и персонализированный подклад.</p>
+      </div>
+
+      <div class="customizer-container">
+        <!-- Controls Panel -->
+        <div class="customizer-options">
+
+          <!-- Step 1: Shape -->
+          <div class="cust-group">
+            <h3>1. Выберите форму сумки</h3>
+            <div class="cust-choices grid-2" id="custShape">
+              <button class="cust-card active" data-shape="tote" data-price="7800">
+                <div class="cust-icon">👜</div>
+                <strong>Шопер (Tote Bag)</strong>
+                <span>Вместительная, классическая форма</span>
+                <div class="cust-price">7 800 ₽</div>
+              </button>
+              <button class="cust-card" data-shape="bucket" data-price="6900">
+                <div class="cust-icon">🪣</div>
+                <strong>Ведерко (Bucket Bag)</strong>
+                <span>Трендовая округлая форма на утяжке</span>
+                <div class="cust-price">6 900 ₽</div>
+              </button>
+              <button class="cust-card" data-shape="clutch" data-price="6200">
+                <div class="cust-icon">👛</div>
+                <strong>Вечерний Клатч</strong>
+                <span>Изящный клатч с пышной бахромой</span>
+                <div class="cust-price">6 200 ₽</div>
+              </button>
+              <button class="cust-card" data-shape="crossbody" data-price="7100">
+                <div class="cust-icon">👝</div>
+                <strong>Кроссбоди</strong>
+                <span>Компактная сумка через плечо</span>
+                <div class="cust-price">7 100 ₽</div>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Color -->
+          <div class="cust-group">
+            <h3>2. Оттенок рафии Isapie</h3>
+            <div class="cust-colors" id="custColor">
+              <button class="color-swatch active" data-color="natural" data-color-name="Натуральный песок" style="background:#E3B873;"></button>
+              <button class="color-swatch" data-color="caramel" data-color-name="Медовая карамель" style="background:#B3743B;"></button>
+              <button class="color-swatch" data-color="terracotta" data-color-name="Терракота" style="background:#C86D51;"></button>
+              <button class="color-swatch" data-color="sage" data-color-name="Оливковый шалфей" style="background:#7D8B6E;"></button>
+              <button class="color-swatch" data-color="black" data-color-name="Глубокий черный" style="background:#231F20;"></button>
+            </div>
+            <div class="color-label" id="colorSelectedName">Выбран оттенок: <strong>Натуральный песок</strong></div>
+          </div>
+
+          <!-- Step 3: Handles -->
+          <div class="cust-group">
+            <h3>3. Материал ручек</h3>
+            <div class="cust-choices grid-3" id="custHandles">
+              <button class="cust-btn active" data-handle="leather" data-extra="1200">
+                <strong>Итальянская кожа</strong>
+                <span>+1 200 ₽</span>
+              </button>
+              <button class="cust-btn" data-handle="wood" data-extra="800">
+                <strong>Деревянные кольца</strong>
+                <span>+800 ₽</span>
+              </button>
+              <button class="cust-btn" data-handle="woven" data-extra="0">
+                <strong>Плетеные из рафии</strong>
+                <span>Включено</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 4: Add-ons & Monogram -->
+          <div class="cust-group">
+            <h3>4. Дополнительные опции</h3>
+            <label class="check-option">
+              <input type="checkbox" id="optLinenLining" checked data-price="900">
+              <span class="checkmark"></span>
+              <span>Внутренний льняной мешочек-чехол на утяжке (+900 ₽)</span>
+            </label>
+            <label class="check-option">
+              <input type="checkbox" id="optTassel" checked data-price="600">
+              <span class="checkmark"></span>
+              <span>Декоративная бахрома-кисточка (+600 ₽)</span>
+            </label>
+
+            <div class="monogram-box">
+              <label for="inputInitials">Персонализация (Ваши инициалы вышивкой):</label>
+              <input type="text" id="inputInitials" maxlength="3" placeholder="Например: Z.K.">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Live Visual Canvas & Order Summary -->
+        <div class="customizer-preview-box">
+          <div class="canvas-card">
+            <div class="canvas-header">
+              <span class="canvas-tag">Интерактивный макет</span>
+              <span class="canvas-status">ZINA KNIT Bespoke</span>
+            </div>
+
+            <div class="visual-canvas" id="visualCanvas">
+              <!-- Rendered graphic preview via JS -->
+              <div class="bag-render-container" id="bagRenderContainer">
+                <div class="render-handles" id="renderHandles"></div>
+                <div class="render-body" id="renderBody">
+                  <div class="render-texture"></div>
+                  <div class="render-monogram" id="renderMonogram"></div>
+                  <div class="render-tassel" id="renderTassel"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cust-summary-panel">
+              <div class="summary-line">
+                <span>Базовая модель:</span>
+                <strong id="summaryShape">Шопер (Tote Bag)</strong>
+              </div>
+              <div class="summary-line">
+                <span>Цвет рафии:</span>
+                <strong id="summaryColor">Натуральный песок</strong>
+              </div>
+              <div class="summary-line">
+                <span>Тип ручек:</span>
+                <strong id="summaryHandle">Итальянская кожа</strong>
+              </div>
+              <div class="summary-line">
+                <span>Инициалы:</span>
+                <strong id="summaryInitials">Нет</strong>
+              </div>
+
+              <div class="total-price-row">
+                <span>Итоговая стоимость:</span>
+                <div class="total-amount" id="custTotalAmount">10 500 ₽</div>
+              </div>
+
+              <div class="cust-actions">
+                <button class="btn-primary btn-block" id="addCustomToCart">Добавить кастом в корзину</button>
+                <button class="btn-secondary btn-block" id="orderCustomWhatsapp">
+                  <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347z"/></svg>
+                  Обсудить заказ в WhatsApp
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PAGE: ABOUT -->
+    <div class="page-view" id="page-about">
+      <div class="page-header">
+        <p class="eyebrow">Мастерство и философия</p>
+        <h1>История Zina Knit</h1>
+        <p class="page-sub">О бренде, любви к натуральным материалам и искусстве создавать утонченные вещи вручную.</p>
+      </div>
+
+      <div class="about-main">
+        <div class="about-photo">
+          <img src="/Users/filipp/.gemini/antigravity/brain/e1e8ed24-b027-4dda-ba59-c6a8520223db/craftsman_hands_1790529522354.jpg" alt="Зинаида">
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">ZK Brand</p>
+          <h2>ZK Brand народився з любові до речей, створених власними руками.</h2>
+          <p>Кожен виріб створюється індивідуально — від вибору пряжі, кольору та фактури до останньої деталі. Теплі шкарпетки, рукавички, шапки та балаклави для холодного сезону, а також легкі сумки з рафії для літа.</p>
+          <p>За ZK Brand немає фабрики чи масового виробництва. Кожна річ потребує часу, тому невеликі відмінності між виробами є природними й роблять кожен із них особливим.</p>
+          <p>Ідея бренду проста: створювати красиві речі ручної роботи, які мають характер, відчуваються особливими та приносять задоволення тому, хто їх носить.</p>
+          <p style="font-weight: 600; color: var(--gold-deep); font-size: 17.5px; font-family: var(--font-serif); margin-top: 16px;">Створено повільно. Створено з турботою.</p>
+        </div>
+      </div>
+
+      <div class="process">
+        <div class="section-head">
+          <p class="eyebrow">Как мы создаем изделия</p>
+          <h2>Процесс от волокна до готовой сумки</h2>
+        </div>
+        <div class="process-steps">
+          <div class="step-card">
+            <span class="step-no">01. Отбор материалов</span>
+            <h3>Мадагаскарская Рафия</h3>
+            <p>Мы используем 100% натуральную рафию высшего сорта Isapie. Она экологична, дышит, обладает приятным естественным глянцем и высокой стойкостью к износу.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-no">02. Ручная вязка</span>
+            <h3>Кропотливая работа</h3>
+            <p>Вязка выполняется крючком с высокой плотностью петель. На одну сумку-шопер уходит от 20 до 35 часов кропотливого ручного труда.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-no">03. Сборка и упаковка</span>
+            <h3>Премиальные детали</h3>
+            <p>Установка кожаных ручек на латунные заклёпки, пошив льняного чехла и бережная упаковка в фирменный хлопковый пыльник с ароматом лаванды.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PAGE: CONTACT -->
+    <div class="page-view" id="page-contact">
+      <div class="page-header">
+        <p class="eyebrow">Контакты</p>
+        <h1>Связаться со мной</h1>
+        <p class="page-sub">Есть вопросы по коллекции или хотите обсудить индивидуальный заказ? Напишите мне удобным способом!</p>
+      </div>
+
+      <div class="contact-section">
+        <div class="contact-info">
+          <h2>Мы всегда на связи</h2>
+          <p>Мастерская находится в Санкт-Петербурге. Мы отправляем заказы курьерскими службами по всей России и миру.</p>
+          
+          <dl class="contact-detail">
+            <dt>Мессенджеры</dt>
+            <dd>
+              <a href="https://wa.me/79000000000" target="_blank" class="contact-link">WhatsApp: +7 (900) 000-00-00</a><br>
+              <a href="https://t.me/zinaknit" target="_blank" class="contact-link">Telegram: @zinaknit_official</a>
+            </dd>
+
+            <dt>Электронная почта</dt>
+            <dd><a href="mailto:hello@zinaknit.ru">hello@zinaknit.ru</a></dd>
+
+            <dt>Социальные сети</dt>
+            <dd><a href="#" class="contact-link">Instagram: @zina.knit</a></dd>
+
+            <dt>Время работы</dt>
+            <dd>Пн-Сб: 10:00 – 19:00 (МСК)</dd>
+          </dl>
+        </div>
+
+        <div class="contact-form-box">
+          <h2>Написать сообщение</h2>
+          <form id="contactForm" class="contact-form">
+            <div class="form-field">
+              <label for="cName">Ваше имя *</label>
+              <input type="text" id="cName" required placeholder="Екатерина">
+            </div>
+
+            <div class="form-field">
+              <label for="cEmail">E-mail или Телефон *</label>
+              <input type="text" id="cEmail" required placeholder="+7 (999) 000-00-00">
+            </div>
+
+            <div class="form-field">
+              <label for="cSubject">Тема обращения</label>
+              <select id="cSubject">
+                <option value="buy">Покупка готовой сумки</option>
+                <option value="custom">Индивидуальный заказ</option>
+                <option value="collab">Сотрудничество</option>
+                <option value="other">Другой вопрос</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="cMessage">Ваше сообщение *</label>
+              <textarea id="cMessage" required placeholder="Опишите ваши пожелания или задайте вопрос..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary btn-block">Отправить сообщение</button>
+            <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- Slide-Over Cart Drawer -->
+  <div class="cart-drawer-backdrop" id="cartBackdrop"></div>
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="drawer-header">
+      <h2>Ваша корзина (<span id="cartDrawerCount">0</span>)</h2>
+      <button class="drawer-close" id="cartClose" aria-label="Закрыть">&times;</button>
+    </div>
+
+    <!-- Free Delivery Bar -->
+    <div class="free-shipping-bar">
+      <div class="shipping-msg" id="shippingMsg">Добавьте товаров для бесплатной доставки!</div>
+      <div class="shipping-progress"><div class="progress-fill" id="shippingProgressFill"></div></div>
+    </div>
+
+    <!-- Cart Body -->
+    <div class="cart-drawer-body" id="cartItemsList">
+      <!-- Dynamically filled via app.js -->
+    </div>
+
+    <!-- Cart Footer -->
+    <div class="cart-drawer-footer">
+      <div class="promo-box">
+        <input type="text" id="promoInput" placeholder="Промокод (например ZINA10)">
+        <button id="applyPromoBtn">Применить</button>
+      </div>
+
+      <div class="cart-totals">
+        <div class="total-row">
+          <span>Подытог:</span>
+          <span id="cartSubtotal">0 ₽</span>
+        </div>
+        <div class="total-row discount-row" id="discountRow" style="display:none;">
+          <span>Скидка по промокоду:</span>
+          <span id="cartDiscount">-0 ₽</span>
+        </div>
+        <div class="total-row grand-total">
+          <span>Итого:</span>
+          <span id="cartGrandTotal">0 ₽</span>
+        </div>
+      </div>
+
+      <div class="cart-checkout-actions">
+        <button class="btn-primary btn-block" id="whatsappCheckoutBtn">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347z"/></svg>
+          Быстрый заказ в WhatsApp
+        </button>
+        <button class="btn-secondary btn-block" id="siteCheckoutBtn">Оформить доставку на сайте</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Quick View Modal -->
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="product-modal" id="productModal">
+    <button class="modal-close" id="modalClose">&times;</button>
+    <div class="modal-body" id="modalContent">
+      <!-- Rendered dynamically -->
+    </div>
+  </div>
+
+
+  <!-- Simulated Checkout Modal -->
+  <div class="checkout-modal" id="checkoutModal">
+    <div class="checkout-box">
+      <button class="modal-close" id="checkoutClose">&times;</button>
+      <h2>Оформление заказа</h2>
+      <p class="sub">Заполните данные для отправки СДЭК / Почтой России</p>
+      
+      <form id="checkoutForm">
+        <div class="form-field">
+          <label>ФИО Получателя</label>
+          <input type="text" required placeholder="Иванова Анна Сергеевна">
+        </div>
+
+        <div class="form-grid-2">
+          <div class="form-field">
+            <label>Телефон</label>
+            <input type="tel" required placeholder="+7 (999) 000-00-00">
+          </div>
+          <div class="form-field">
+            <label>Город доставки</label>
+            <input type="text" required placeholder="Москва / Санкт-Петербург">
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label>Адрес или пункт выдачи СДЭК</label>
+          <input type="text" required placeholder="ул. Ленина, д. 15, кв. 4 или ПВЗ СДЭК MSK12">
+        </div>
+
+        <div class="form-field">
+          <label>Способ оплаты</label>
+          <select>
+            <option>Банковской картой онлайн (МИР / Visa / Mastercard)</option>
+            <option>СБП (Система быстрых платежей)</option>
+            <option>Долями / Сплит</option>
+          </select>
+        </div>
+
+        <div class="checkout-summary-mini">
+          <span>Сумма к оплате:</span>
+          <strong id="checkoutFinalAmount">0 ₽</strong>
+        </div>
+
+        <button type="submit" class="btn-primary btn-block">Оплатить заказ</button>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col-main">
+        <div class="footer-brand">ZINA KNIT <i>by Зинаида</i></div>
+        <div class="footer-tagline">Ручная работа с заботой в каждой петельке.</div>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#home" class="nav-link-btn" data-page="home">Главная</a>
+        <a href="#shop" class="nav-link-btn" data-page="shop">Каталог</a>
+        <a href="#customizer" class="nav-link-btn" data-page="customizer">Конструктор</a>
+        <a href="#about" class="nav-link-btn" data-page="about">О бренде</a>
+        <a href="#contact" class="nav-link-btn" data-page="contact">Контакты</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg>
+        </a>
+        <a href="#" aria-label="Telegram" title="Telegram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        </a>
+      </div>
+
+      <div class="footer-fine">© 2026 ZINA KNIT — Все права защищены. Изготовлено из натуральной рафии Isapie.</div>
+      
+      <div class="footer-legal">
+        <a href="#contact">Условия доставки и возврата</a>
+        <a href="#contact">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
